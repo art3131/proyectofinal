@@ -1,0 +1,49 @@
+
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: rgb(255, 255, 255);
+    justify-content: center;
+    align-items: center;
+    
+}
+.full { 
+    width: 1000px;
+    height:0px 0px;
+    background-color: rgb(245, 239, 231);
+    margin: 0px;
+    display: grid; /* encuadra las areas uno a lado del otro*/
+    grid-template-columns: 2fr 6fr;
+}
+.izquierda {
+    position: initial;
+    background-color: #979eff;
+    padding: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif,'sans-serif';
+    border: 2px solid black;
+}
+p{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 100;
+}
+.derecha {
+    position: initial;
+    background-color: rgb(169, 162, 206);
+    padding: 20px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif,'sans-serif';
+    border: 2px solid rgb(25, 0, 255);
+}
+.Foto, .Contacto, .Habilidades, .Idiomas, .Pasatiempos,
+.Resumen, .Experiencia, .Educacion, .Proyectos,  .Direccion {
+    margin-bottom: 30px;
+}
+ button{
+    background-color: bisque;
+    font-family: "Roboto Mono"
+ }
